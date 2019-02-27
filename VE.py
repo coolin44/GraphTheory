@@ -145,7 +145,7 @@ def totalDominationNumber():
 def sort(total_verts):
         highest_deg = total_verts[0]
         most_neighbors = neighborsSet(total_verts[0], G)
-         for b in range (1, len(total_verts)):
+        for b in range (1, len(total_verts)):
                 a = neighborsSet(total_verts[b], G)
                 if len(a) > len(most_neighbors):
                         most_neighbors = a
